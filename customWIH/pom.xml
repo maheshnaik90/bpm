@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>customWIH</groupId>
+	<artifactId>customWIH</artifactId>
+	<version>1.0</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.kie</groupId>
+			<artifactId>kie-api</artifactId>
+			<version>7.11.0.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.kie.server</groupId>
+			<artifactId>kie-server-client</artifactId>
+			<version>7.11.0.Final</version>
+		</dependency>
+		<!-- active mq dependencies -->
+	<!-- 	<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>5.7.0</version>
+		</dependency> -->		
+		
+	<!-- 	<dependency>
+    <groupId>org.jbpm</groupId>
+    <artifactId>jbpm-workitems</artifactId>
+    <version>7.11.0.Final</version>
+    <type>pom</type>
+</dependency>
+ <dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-internal</artifactId>
+      <version>7.11.0.Final</version>
+      
+    </dependency>
+    https://mvnrepository.com/artifact/org.jbpm/jbpm-workitems-email
+<dependency>
+    <groupId>org.jbpm</groupId>
+    <artifactId>jbpm-workitems-email</artifactId>
+    <version>7.11.0.Final</version>
+</dependency> -->
+    
+	</dependencies>
+	
+</project>
