@@ -14,6 +14,18 @@ public class SampleService {
 
 	
 
+	public SampleRepository getSampleRepository() {
+		return sampleRepository;
+	}
+
+
+
+	public void setSampleRepository(SampleRepository sampleRepository) {
+		this.sampleRepository = sampleRepository;
+	}
+
+
+
 	public Sample save(Sample sample) {
 		return sampleRepository.save(sample);
 	}

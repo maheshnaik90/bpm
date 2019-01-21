@@ -28,8 +28,16 @@ public class Sample implements Serializable {
 	@Id
 	@Column(name = "ID")
 	private String id;
-
 	
+	
+	
+	public Sample(String id) {
+		super();
+		this.id = id;
+	}
+
+
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
