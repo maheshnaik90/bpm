@@ -14,12 +14,6 @@ public class SampleService {
 
 	
 
-	public SampleRepository getSampleRepository() {
-		return sampleRepository;
-	}
-
-
-
 	public void setSampleRepository(SampleRepository sampleRepository) {
 		this.sampleRepository = sampleRepository;
 	}
